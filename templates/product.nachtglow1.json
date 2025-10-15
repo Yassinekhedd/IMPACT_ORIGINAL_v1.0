@@ -337,10 +337,12 @@
         },
         "separator_cb3ypN": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
         },
         "liquid_CyB8KY": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<style>\n  p {\n    font-size: 16px; /* légèrement plus grand qu’avant */\n    line-height: 1.4;\n  }\n</style>\n\n<p><strong>🍒 Formt deine Figur natürlich</strong></p>\n<p><strong>❤ Nahtlos & leicht anzuziehen</strong></p>\n<p><strong>✅ Voller Tragekomfort den ganzen Tag</strong></p>"
           }
