@@ -383,89 +383,6 @@
         "input_text_color": ""
       }
     },
-    "judge_dNMJVY": {
-      "type": "judge",
-      "blocks": {
-        "review_McK494": {
-          "type": "review",
-          "settings": {
-            "hide_image": false,
-            "author": "Lori",
-            "stars_count": 5,
-            "text": "Very pleased with this purchase! It's high-quality, easy to use, and reliable. Highly recommend for its efficiency and convenience."
-          }
-        },
-        "review_zkA7Re": {
-          "type": "review",
-          "settings": {
-            "hide_image": false,
-            "author": "Jillian",
-            "stars_count": 5,
-            "text": "Extremely satisfied with this product! It offers excellent quality and simplicity. I recommend for its effectiveness and user-friendliness"
-          }
-        }
-      },
-      "block_order": [
-        "review_McK494",
-        "review_zkA7Re"
-      ],
-      "name": "SS - Product Reviews",
-      "settings": {
-        "reviews_position": "above_buy",
-        "reviews_meta": "",
-        "reviews_radius": 0,
-        "review_padding_vertical": 8,
-        "review_padding_horizontal": 8,
-        "review_radius": 8,
-        "review_border_thickness": 0,
-        "image_width": 60,
-        "image_radius": 8,
-        "image_border_thickness": 0,
-        "image_ratio": "square",
-        "stars_size": 14,
-        "author_custom": false,
-        "author_font": "josefin_sans_n4",
-        "author_size": 14,
-        "author_size_mobile": 14,
-        "author_height": 130,
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 12,
-        "text_size_mobile": 12,
-        "text_height": 130,
-        "text_mt": 4,
-        "arrow_size": 24,
-        "arrow_size_mobile": 24,
-        "arrow_icon_size": 16,
-        "arrow_icon_size_mobile": 16,
-        "arrow_border_thickness": 0,
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": true,
-        "review_bg_color": "#F3F3F3",
-        "review_border_color": "#000000",
-        "image_border_color": "#000000",
-        "author_color": "#000000",
-        "text_color": "#000000",
-        "arrow_color": "#000000",
-        "arrow_hover_color": "#000000",
-        "arrow_bg_color": "#F3F3F3",
-        "arrow_bg_hover_color": "#DDDDDD",
-        "arrow_border_color": "#F3F3F3",
-        "arrow_border_hover_color": "#DDDDDD",
-        "stars_color": "#000000",
-        "background_color": "#F3F3F3",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 10,
-        "margin_bottom": 10,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
     "produict_videos_HwzCTw": {
       "type": "produict-videos",
       "blocks": {
@@ -909,6 +826,102 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
+    },
+    "judge_VGWEdh": {
+      "type": "judge",
+      "blocks": {
+        "review_TK76VY": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/OIP.webp",
+            "hide_image": false,
+            "author": "Lora_gnt",
+            "stars_count": 5,
+            "text": "Die Qualität ist unglaublich! Der Body sitzt perfekt und fühlt sich super angenehm auf der Haut an."
+          }
+        },
+        "review_UVrc46": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/portrait-beautiful-young-woman-with-clean-fresh-skin-white-background_743855-43746.avif",
+            "hide_image": true,
+            "author": "Ashley_ferdj",
+            "stars_count": 4,
+            "text": "Ich liebe diesen Body! Er betont die Figur genau richtig und sieht total elegant aus."
+          }
+        },
+        "review_7hnQJX": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/OIP_1.webp",
+            "hide_image": false,
+            "author": "Madleine_hrt",
+            "stars_count": 5,
+            "text": "Sehr bequem und hochwertig verarbeitet – ich würde ihn jederzeit wieder kaufen!"
+          }
+        }
+      },
+      "block_order": [
+        "review_TK76VY",
+        "review_UVrc46",
+        "review_7hnQJX"
+      ],
+      "name": "SS - Product Reviews",
+      "settings": {
+        "reviews_position": "above_buy",
+        "reviews_meta": "",
+        "reviews_radius": 0,
+        "review_padding_vertical": 8,
+        "review_padding_horizontal": 8,
+        "review_radius": 8,
+        "review_border_thickness": 0,
+        "image_width": 60,
+        "image_radius": 8,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "stars_size": 14,
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 14,
+        "author_size_mobile": 14,
+        "author_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 12,
+        "text_size_mobile": 12,
+        "text_height": 130,
+        "text_mt": 4,
+        "arrow_size": 24,
+        "arrow_size_mobile": 24,
+        "arrow_icon_size": 16,
+        "arrow_icon_size_mobile": 16,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "review_bg_color": "#F3F3F3",
+        "review_border_color": "#000000",
+        "image_border_color": "#000000",
+        "author_color": "#000000",
+        "text_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#F3F3F3",
+        "arrow_bg_hover_color": "#DDDDDD",
+        "arrow_border_color": "#F3F3F3",
+        "arrow_border_hover_color": "#DDDDDD",
+        "stars_color": "#000000",
+        "background_color": "#F3F3F3",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 10,
+        "margin_bottom": 10,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -917,10 +930,10 @@
     "slideshow_z4f9fd",
     "slideshow_QCVUQh",
     "main",
-    "judge_dNMJVY",
     "produict_videos_HwzCTw",
     "comparaison_3HQ7Jd",
     "slideshow_gTMmtQ",
-    "1760491390c9cfb3cd"
+    "1760491390c9cfb3cd",
+    "judge_VGWEdh"
   ]
 }
