@@ -177,6 +177,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_VWqqjq": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n:root {\n  --social-proof-text-color: #000000;\n  --social-proof-star-color: #724C39;\n}\n\n.social-proof-slide__block-rating {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\nfont-size: 14px;\n}\n\n.social-proof-slide__block-stars {\n    display: flex;\n    margin-right: 8px;\n    color: var(--social-proof-star-color);\n}\n\n.social-proof-slide__block-rating-text {\n    display: inline;\n    color: var(--social-proof-text-color);\n    content: var(--social-proof-rating-text);\n}\n\n.social-proof-star {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 16px;\n    height: 16px;\n}\n\n.social-proof-star svg {\n    width: 16px;\n    height: 16px;\n    fill: var(--social-proof-star-color);\n}\n</style>\n</head>\n<body>\n\n<div class=\"social-proof-slide__block-rating mt-2\">\n  <span class=\"social-proof-slide__block-stars\">\n    <span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n  </span>\n  <span class=\"social-proof-slide__block-rating-text\">\n    Rated 4.8 by 1500+ Customers!\n  </span>\n</div>\n\n</body>\n</html>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -203,6 +209,16 @@
           "type": "payment_terms",
           "settings": {}
         },
+        "separator_cb3ypN": {
+          "type": "separator",
+          "settings": {}
+        },
+        "liquid_ndTCRQ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  p {\n    font-size: 15px;\n    line-height: 2.2;\n  }\n</style>\n\n<p>🗸 Ultra fast charging</p>\n<p>🗸 Portable, take it anywhere!</p>\n<p>🗸 Enhance Endurance</p>"
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -228,6 +244,52 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "section_store_block_pulse_badge_GCRF3Y": {
+          "type": "shopify://apps/section-store/blocks/block-pulse-badge/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "settings": {
+            "content_align": "left",
+            "use_indicator": true,
+            "pulse_icon_size": 12,
+            "pulse_icon_color": "#f1831d",
+            "text": "<p>74% People choose subscription</p>",
+            "text_size": 15,
+            "auto_text_weight": "normal",
+            "text_color": "#121212",
+            "border": "none",
+            "border_thickness": 1,
+            "border_color": "#000000",
+            "radius": 0,
+            "background": "",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_left": 0,
+            "padding_right": 0
+          }
+        },
+        "section_store_block_product_info_wrapper_bGeT9U": {
+          "type": "shopify://apps/section-store/blocks/block-product-info-wrapper/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "settings": {
+            "auto_detect_product_info_container": true,
+            "product_info_container_selector": "",
+            "use_on_mobile": true,
+            "use_header": false,
+            "header_font_size": 16,
+            "header_bg_color": "#000000",
+            "header_text_color": "#FFFFFF",
+            "header_text_align": "center",
+            "header_text": "♥︎ 9 of 10 recommend to friends",
+            "border_style": "solid",
+            "border_width": 1,
+            "border_color": "#DFDFDF",
+            "border_radius": 12,
+            "background_color": "",
+            "shadow": "shadow_1",
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "padding_left": 20,
+            "padding_right": 20
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -238,19 +300,49 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "section_store_block_payment_icons_2_3hTRfq": {
+          "type": "shopify://apps/section-store/blocks/block-payment-icons-2/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "settings": {
+            "icons_layout": "fixed_grid",
+            "icons_per_row": 8,
+            "icons_per_row_mobile": 8,
+            "gap": 10,
+            "icons_align": "center",
+            "icons_monochrome": false,
+            "enable_first_image": false,
+            "enable_second_image": false,
+            "enable_third_image": false,
+            "icon_size": 20,
+            "border": "none",
+            "border_thickness": 1,
+            "border_color": "#000000",
+            "radius": 0,
+            "background": "",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_left": 0,
+            "padding_right": 0
+          }
         }
       },
       "block_order": [
+        "liquid_VWqqjq",
         "title",
         "badges",
         "price",
         "rating",
         "payment_terms",
+        "separator_cb3ypN",
+        "liquid_ndTCRQ",
         "separator",
         "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "section_store_block_pulse_badge_GCRF3Y",
+        "section_store_block_product_info_wrapper_bGeT9U",
+        "buy_buttons",
+        "section_store_block_payment_icons_2_3hTRfq"
       ],
       "settings": {
         "full_width": true,
