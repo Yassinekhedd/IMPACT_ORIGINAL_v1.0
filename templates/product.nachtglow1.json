@@ -219,10 +219,17 @@
           "type": "separator",
           "settings": {}
         },
-        "liquid_ndTCRQ": {
+        "liquid_CyB8KY": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  p {\n    font-size: 15px;\n    line-height: 2.2;\n  }\n</style>\n\n<p>🗸 Ultra fast charging</p>\n<p>🗸 Portable, take it anywhere!</p>\n<p>🗸 Enhance Endurance</p>"
+            "liquid": "<style>\n  p {\n    font-size: 16px; /* légèrement plus grand qu’avant */\n    line-height: 1.4;\n  }\n</style>\n\n<p><strong>🍒 Formt deine Figur natürlich</strong></p>\n<p><strong>❤ Nahtlos & leicht anzuziehen</strong></p>\n<p><strong>✅ Voller Tragekomfort den ganzen Tag</strong></p>"
+          }
+        },
+        "liquid_ndTCRQ": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<style>\n  p {\n    font-size: 23px;\n    line-height: 2.2;\n  }\n</style>\n\n<p>🗸 Ultra fast charging</p>\n<p>🗸 Portable, take it anywhere!</p>\n<p>🗸 Enhance Endurance</p>"
           }
         },
         "separator": {
@@ -358,6 +365,7 @@
         "rating",
         "payment_terms",
         "separator_cb3ypN",
+        "liquid_CyB8KY",
         "liquid_ndTCRQ",
         "separator",
         "description",
