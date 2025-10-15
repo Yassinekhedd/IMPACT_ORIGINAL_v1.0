@@ -739,21 +739,21 @@
         "text_color": "#000000",
         "icon_color": "#000000",
         "list_text_color": "#000000",
-        "button_color": "#FFFFFF",
+        "button_color": "#ffffff",
         "button_hover_color": "#dad0ff",
-        "button_bg_color": "#16142B",
-        "button_bg_hover_color": "#16142B",
-        "button_border_color": "#16142B",
-        "button_border_hover_color": "#16142B",
+        "button_bg_color": "#16142b",
+        "button_bg_hover_color": "#16142b",
+        "button_border_color": "#16142b",
+        "button_border_hover_color": "#16142b",
         "table_border_color": "#000000",
-        "table_active_border_color": "#DAD0FF",
-        "table_heading_color": "#1A192E",
+        "table_active_border_color": "#dad0ff",
+        "table_heading_color": "#1a192e",
         "table_heading_active_color": "#ffffff",
         "table_heading_bg_active_color": "#f2f2f2",
-        "table_column_active_bg_color": "#2D2B43",
-        "table_row_heading_color": "#1A192E",
-        "table_row_text_color": "#1A192E",
-        "table_row_active_text_color": "#FFFFFF",
+        "table_column_active_bg_color": "#2d2b43",
+        "table_row_heading_color": "#1a192e",
+        "table_row_text_color": "#1a192e",
+        "table_row_active_text_color": "#ffffff",
         "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
@@ -810,6 +810,36 @@
         "background": "#f2f2f2",
         "background_gradient": ""
       }
+    },
+    "1760491355d289d279": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_xNMz7i": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_xNMz7i"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -820,6 +850,7 @@
     "main",
     "produict_videos_HwzCTw",
     "comparaison_3HQ7Jd",
-    "slideshow_gTMmtQ"
+    "slideshow_gTMmtQ",
+    "1760491355d289d279"
   ]
 }
