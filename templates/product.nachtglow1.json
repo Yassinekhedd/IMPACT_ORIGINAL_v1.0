@@ -811,41 +811,6 @@
         "background_gradient": ""
       }
     },
-    "1760491355d289d279": {
-      "type": "apps",
-      "blocks": {
-        "air_product_reviews_app_block_all_review_4HtGD3": {
-          "type": "shopify://apps/air-product-reviews/blocks/app-block-all-review/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
-          "settings": {
-            "air_allReviewsBlock_heading": "All reviews page",
-            "air_allReviewsBlock_useSimpleSummary": false,
-            "air_allReviewsBlock_maxReview": 20,
-            "air_allReviewsBlock_summaryBgColor": "#F8F8F8",
-            "air_allReviewsBlock_bgColor": "#FFFFFF",
-            "air_allReviewsBlock_onlyMedia": false,
-            "air_allReviewsBlock_onlyPositive": false,
-            "air_allReviewsBlock_hideProductThumbnails": false,
-            "air_allReviewsBlock_selectedProduct": []
-          }
-        }
-      },
-      "block_order": [
-        "air_product_reviews_app_block_all_review_4HtGD3"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
     "1760491390c9cfb3cd": {
       "type": "apps",
       "settings": {
@@ -872,7 +837,6 @@
     "produict_videos_HwzCTw",
     "comparaison_3HQ7Jd",
     "slideshow_gTMmtQ",
-    "1760491355d289d279",
     "1760491390c9cfb3cd"
   ]
 }
