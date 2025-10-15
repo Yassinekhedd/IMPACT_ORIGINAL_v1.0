@@ -258,8 +258,8 @@
         "image_fTtt9p": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-08_a_21.19.23_152a6dc1.jpg",
-            "mobile_image": "shopify://shop_images/WhatsApp_Image_2025-10-08_a_21.19.23_152a6dc1.jpg",
+            "image": "shopify://shop_images/Design_sans_titre_7.svg",
+            "mobile_image": "shopify://shop_images/Design_sans_titre_7.svg",
             "content_max_width": 400,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
