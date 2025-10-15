@@ -718,7 +718,7 @@
         "table_row_padding_horizontal": 2,
         "table_row_padding_horizontal_mobile": 0,
         "table_row_padding_vertical": 38,
-        "table_row_padding_vertical_mobile": 16,
+        "table_row_padding_vertical_mobile": 24,
         "table_row_heading_width_mobile": 66,
         "table_row_heading_custom": false,
         "table_row_heading_font": "assistant_n4",
