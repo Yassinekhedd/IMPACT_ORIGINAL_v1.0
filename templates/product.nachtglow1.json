@@ -341,13 +341,13 @@
         },
         "liquid_CyB8KY": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
             "liquid": "<style>\n  p {\n    font-size: 16px; /* légèrement plus grand qu’avant */\n    line-height: 1.4;\n  }\n</style>\n\n<p><strong>🍒 Formt deine Figur natürlich</strong></p>\n<p><strong>❤ Nahtlos & leicht anzuziehen</strong></p>\n<p><strong>✅ Voller Tragekomfort den ganzen Tag</strong></p>"
           }
         },
         "liquid_az9Pdy": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"benefits-section\">\n  <h2></h2>\n  <ul class=\"benefits-list\">\n    <li>\n      <img src=\"https://st4.depositphotos.com/7662228/30133/v/450/depositphotos_301338040-stock-illustration-green-check-mark-and-red.jpg\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Formt deine Silhouette</span>\n    </li>\n    <li>\n      <img src=\"https://st4.depositphotos.com/7662228/30133/v/450/depositphotos_301338040-stock-illustration-green-check-mark-and-red.jpg\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Unsichtbar unter der Kleidung</span>\n    </li>\n    <li>\n      <img src=\"https://st4.depositphotos.com/7662228/30133/v/450/depositphotos_301338040-stock-illustration-green-check-mark-and-red.jpg\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Angenehm & atmungsaktiv</span>\n    </li>\n    <li>\n      <img src=\"https://st4.depositphotos.com/7662228/30133/v/450/depositphotos_301338040-stock-illustration-green-check-mark-and-red.jpg\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Hebt Po & Taille hervor</span>\n    </li>\n  </ul>\n</div>\n\n<style>\n  .benefits-section {\n    font-family: Arial, sans-serif;\n    color: #333;\n  }\n  .benefits-section h2 {\n    font-size: 26px;\n    margin-bottom: 10px;\n  }\n  .benefits-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n  }\n  .benefits-list li {\n    width: 48%;\n    margin-bottom: 14px;\n    display: flex;\n    align-items: center;\n  }\n  .benefit-icon {\n    width: 20px; /* taille augmentée */\n    height: 25px;\n    margin-right: 10px;\n    object-fit: contain;\n  }\n  .benefit-text {\n    font-size: 17px; /* un peu plus grand aussi pour l’équilibre */\n    font-weight: 500;\n  }\n</style>"
           }
