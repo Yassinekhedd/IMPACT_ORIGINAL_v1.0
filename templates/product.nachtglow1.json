@@ -389,7 +389,8 @@
         "image_4qfwDW": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-14_a_16.05.09_d7f18a12.jpg",
+            "image": "shopify://shop_images/Design_sans_titre.svg",
+            "mobile_image": "shopify://shop_images/Design_sans_titre.svg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
