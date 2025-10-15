@@ -281,6 +281,7 @@
         },
         "liquid_KDm3GN": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div style=\"border: 1px solid #e5e5e5; padding: 10px; display: flex; align-items: center; justify-content: space-between; border-radius: 10px; height: 80px; line-height: 1;\">\n  <div style=\"flex: 0 0 auto; display: flex; align-items: center;\">\n    <img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S2acecb585dd147cb9b09b6cd343288e4P.jpg_220x220q75.jpg_.avif\" alt=\"Nasht Glow Body Suit\" style=\"width: 60px; height: 60px; border-radius: 6px; object-fit: cover;\"/>\n  </div>\n  <div style=\"flex: 1; padding-left: 10px; text-align: left; display: flex; flex-direction: column; justify-content: center;\">\n    <p style=\"margin: 0; font-weight: bold; font-size: 14px; color: #111; line-height: 1.1;\">Nasht Glow Body Suit</p>\n  </div>\n  <div style=\"flex: 0 0 auto; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;\">\n    <p style=\"margin: 0; text-decoration: line-through; color: grey; margin-bottom: 5px;\">24,90 €</p>\n    <p style=\"margin: 0; background-color: #a0db85; color: #216297; border-radius: 10px; padding: 2px 8px; font-size: 12px;\">Free</p>\n  </div>\n</div>"
           }
