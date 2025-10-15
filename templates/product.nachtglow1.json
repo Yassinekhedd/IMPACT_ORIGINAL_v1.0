@@ -174,6 +174,82 @@
         "background_gradient": ""
       }
     },
+    "image_link_blocks_QPHmJk": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_C7tWWn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/83cd741b-0f86-4d3d-9fa3-f3240e8845ad_647x1151_23661fe8-a520-4701-b3b9-5ccabffc2622.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_VMEiJm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/25ece93b-87e3-4166-b988-3934a22f7556_675x1200_c8a44e0d-4e2e-42f7-9dc6-72ad3821c042.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_R6nGg4": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_PmNdNf": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_C7tWWn",
+        "item_VMEiJm",
+        "item_R6nGg4",
+        "item_PmNdNf"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "small",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -849,6 +925,7 @@
     "slideshow_EWrYV6",
     "slideshow_z4f9fd",
     "slideshow_QCVUQh",
+    "image_link_blocks_QPHmJk",
     "main",
     "produict_videos_HwzCTw",
     "comparaison_3HQ7Jd",
