@@ -527,6 +527,48 @@
         "input_text_color": ""
       }
     },
+    "slideshow_kEPmt4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_RegYMb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_9.svg",
+            "mobile_image": "shopify://shop_images/Design_sans_titre_9.svg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_RegYMb"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "produict_videos_HwzCTw": {
       "type": "produict-videos",
       "blocks": {
@@ -1001,6 +1043,7 @@
     "image_link_blocks_QPHmJk",
     "slideshow_XzUr9f",
     "main",
+    "slideshow_kEPmt4",
     "produict_videos_HwzCTw",
     "comparaison_3HQ7Jd",
     "slideshow_gTMmtQ",
