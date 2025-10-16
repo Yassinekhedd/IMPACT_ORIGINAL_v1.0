@@ -1220,89 +1220,6 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "judge_3WHKhE": {
-      "type": "judge",
-      "blocks": {
-        "review_TMdiVc": {
-          "type": "review",
-          "settings": {
-            "hide_image": false,
-            "author": "Lori",
-            "stars_count": 5,
-            "text": "Very pleased with this purchase! It's high-quality, easy to use, and reliable. Highly recommend for its efficiency and convenience."
-          }
-        },
-        "review_gFq9Mh": {
-          "type": "review",
-          "settings": {
-            "hide_image": false,
-            "author": "Jillian",
-            "stars_count": 5,
-            "text": "Extremely satisfied with this product! It offers excellent quality and simplicity. I recommend for its effectiveness and user-friendliness"
-          }
-        }
-      },
-      "block_order": [
-        "review_TMdiVc",
-        "review_gFq9Mh"
-      ],
-      "name": "SS - Product Reviews",
-      "settings": {
-        "reviews_position": "above_buy",
-        "reviews_meta": "",
-        "reviews_radius": 0,
-        "review_padding_vertical": 8,
-        "review_padding_horizontal": 8,
-        "review_radius": 8,
-        "review_border_thickness": 0,
-        "image_width": 60,
-        "image_radius": 8,
-        "image_border_thickness": 0,
-        "image_ratio": "square",
-        "stars_size": 14,
-        "author_custom": false,
-        "author_font": "josefin_sans_n4",
-        "author_size": 14,
-        "author_size_mobile": 14,
-        "author_height": 130,
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 12,
-        "text_size_mobile": 12,
-        "text_height": 130,
-        "text_mt": 4,
-        "arrow_size": 24,
-        "arrow_size_mobile": 24,
-        "arrow_icon_size": 16,
-        "arrow_icon_size_mobile": 16,
-        "arrow_border_thickness": 0,
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": true,
-        "review_bg_color": "#F3F3F3",
-        "review_border_color": "#000000",
-        "image_border_color": "#000000",
-        "author_color": "#000000",
-        "text_color": "#000000",
-        "arrow_color": "#000000",
-        "arrow_hover_color": "#000000",
-        "arrow_bg_color": "#F3F3F3",
-        "arrow_bg_hover_color": "#DDDDDD",
-        "arrow_border_color": "#F3F3F3",
-        "arrow_border_hover_color": "#DDDDDD",
-        "stars_color": "#000000",
-        "background_color": "#F3F3F3",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 10,
-        "margin_bottom": 10,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
     "contact_CMRdkV": {
       "type": "contact",
       "name": "Contact form",
@@ -1323,6 +1240,19 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "custom_html_fUYkHL": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Section Avis Clients</title>\n  <style>\n    * {\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n    }\n\n    body {\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n      background: #f8f9fa;\n      padding: 40px 20px;\n    }\n\n    .reviews-container {\n      max-width: 1200px;\n      margin: 0 auto;\n    }\n\n    .reviews-header {\n      text-align: center;\n      margin-bottom: 50px;\n    }\n\n    .reviews-header h2 {\n      font-size: 36px;\n      font-weight: 700;\n      color: #000;\n      margin-bottom: 12px;\n    }\n\n    .reviews-stats {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      gap: 20px;\n      margin-top: 20px;\n    }\n\n    .overall-rating {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n    }\n\n    .rating-number {\n      font-size: 48px;\n      font-weight: 700;\n      color: #000;\n    }\n\n    .stars {\n      color: #fbbf24;\n      font-size: 24px;\n      letter-spacing: 2px;\n    }\n\n    .total-reviews {\n      color: #666;\n      font-size: 14px;\n    }\n\n    .reviews-grid {\n      display: grid;\n      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));\n      gap: 24px;\n      margin-top: 40px;\n    }\n\n    .review-card {\n      background: white;\n      border-radius: 16px;\n      padding: 28px;\n      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);\n      transition: all 0.3s ease;\n      border: 1px solid #f0f0f0;\n    }\n\n    .review-card:hover {\n      transform: translateY(-4px);\n      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);\n    }\n\n    .review-header {\n      display: flex;\n      justify-content: space-between;\n      align-items: flex-start;\n      margin-bottom: 16px;\n    }\n\n    .reviewer-info {\n      display: flex;\n      align-items: center;\n      gap: 12px;\n    }\n\n    .reviewer-avatar {\n      width: 48px;\n      height: 48px;\n      border-radius: 50%;\n      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      color: white;\n      font-weight: 700;\n      font-size: 18px;\n    }\n\n    .reviewer-details h4 {\n      font-size: 16px;\n      font-weight: 600;\n      color: #000;\n      margin-bottom: 4px;\n    }\n\n    .review-date {\n      font-size: 13px;\n      color: #999;\n    }\n\n    .review-rating {\n      color: #fbbf24;\n      font-size: 16px;\n      letter-spacing: 1px;\n    }\n\n    .review-content {\n      margin-top: 16px;\n    }\n\n    .review-title {\n      font-size: 16px;\n      font-weight: 600;\n      color: #000;\n      margin-bottom: 8px;\n    }\n\n    .review-text {\n      font-size: 14px;\n      line-height: 1.6;\n      color: #555;\n    }\n\n    .review-images {\n      display: flex;\n      gap: 8px;\n      margin-top: 12px;\n      flex-wrap: wrap;\n    }\n\n    .review-image {\n      width: 80px;\n      height: 80px;\n      border-radius: 8px;\n      object-fit: cover;\n      cursor: pointer;\n      transition: all 0.3s ease;\n      border: 2px solid transparent;\n    }\n\n    .review-image:hover {\n      transform: scale(1.05);\n      border-color: #667eea;\n      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);\n    }\n\n    .verified-badge {\n      display: inline-flex;\n      align-items: center;\n      gap: 4px;\n      background: #ecfdf5;\n      color: #059669;\n      padding: 4px 10px;\n      border-radius: 12px;\n      font-size: 12px;\n      font-weight: 600;\n      margin-top: 12px;\n    }\n\n    .load-more {\n      text-align: center;\n      margin-top: 40px;\n    }\n\n    .load-more-btn {\n      background: #000;\n      color: white;\n      border: none;\n      padding: 14px 32px;\n      border-radius: 8px;\n      font-size: 14px;\n      font-weight: 600;\n      cursor: pointer;\n      transition: all 0.3s ease;\n    }\n\n    .load-more-btn:hover {\n      background: #333;\n      transform: translateY(-2px);\n      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);\n    }\n\n    @media (max-width: 768px) {\n      .reviews-header h2 {\n        font-size: 28px;\n      }\n\n      .rating-number {\n        font-size: 36px;\n      }\n\n      .reviews-grid {\n        grid-template-columns: 1fr;\n        gap: 16px;\n      }\n\n      .review-card {\n        padding: 20px;\n      }\n    }\n  </style>\n\n\n  <div class=\"reviews-container\">\n    <div class=\"reviews-header\">\n      <h2>Ce que nos clients disent</h2>\n      <div class=\"reviews-stats\">\n        <div class=\"overall-rating\">\n          <span class=\"rating-number\">4.8</span>\n          <div>\n            <div class=\"stars\">★★★★★</div>\n            <div class=\"total-reviews\">Basé sur 2,847 avis</div>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"reviews-grid\">\n      <div class=\"review-card\">\n        <div class=\"review-header\">\n          <div class=\"reviewer-info\">\n            <div class=\"reviewer-avatar\">MA</div>\n            <div class=\"reviewer-details\">\n              <h4>Marie Dubois</h4>\n              <span class=\"review-date\">Il y a 2 jours</span>\n            </div>\n          </div>\n          <div class=\"review-rating\">★★★★★</div>\n        </div>\n        <div class=\"review-content\">\n          <div class=\"review-title\">Qualité exceptionnelle !</div>\n          <div class=\"review-text\">\n            Absolument ravie de mon achat. La qualité du tissu est excellente et la coupe parfaite. Je recommande vivement !\n          </div>\n          <div class=\"review-images\">\n            <img src=\"https://i.imgur.com/placeholder1.jpg\" alt=\"Photo client\" class=\"review-image\" onerror=\"this.style.display='none'\">\n          </div>\n          <span class=\"verified-badge\">\n            <svg width=\"14\" height=\"14\" viewbox=\"0 0 24 24\" fill=\"currentColor\">\n              <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\"></path>\n            </svg>\n            Achat vérifié\n          </span>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <div class=\"review-header\">\n          <div class=\"reviewer-info\">\n            <div class=\"reviewer-avatar\">JM</div>\n            <div class=\"reviewer-details\">\n              <h4>Jean Martin</h4>\n              <span class=\"review-date\">Il y a 5 jours</span>\n            </div>\n          </div>\n          <div class=\"review-rating\">★★★★★</div>\n        </div>\n        <div class=\"review-content\">\n          <div class=\"review-title\">Très satisfait</div>\n          <div class=\"review-text\">\n            Livraison rapide et produit conforme à la description. Le rapport qualité-prix est imbattable. Je commanderai à nouveau.\n          </div>\n          <span class=\"verified-badge\">\n            <svg width=\"14\" height=\"14\" viewbox=\"0 0 24 24\" fill=\"currentColor\">\n              <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\"></path>\n            </svg>\n            Achat vérifié\n          </span>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <div class=\"review-header\">\n          <div class=\"reviewer-info\">\n            <div class=\"reviewer-avatar\">SL</div>\n            <div class=\"reviewer-details\">\n              <h4>Sophie Laurent</h4>\n              <span class=\"review-date\">Il y a 1 semaine</span>\n            </div>\n          </div>\n          <div class=\"review-rating\">★★★★★</div>\n        </div>\n        <div class=\"review-content\">\n          <div class=\"review-title\">Parfait pour l'été</div>\n          <div class=\"review-text\">\n            Tissu léger et agréable à porter. La taille correspond parfaitement. C'est devenu mon vêtement préféré !\n          </div>\n          <div class=\"review-images\">\n            <img src=\"https://i.imgur.com/placeholder2.jpg\" alt=\"Photo client\" class=\"review-image\" onerror=\"this.style.display='none'\">\n            <img src=\"https://i.imgur.com/placeholder3.jpg\" alt=\"Photo client\" class=\"review-image\" onerror=\"this.style.display='none'\">\n          </div>\n          <span class=\"verified-badge\">\n            <svg width=\"14\" height=\"14\" viewbox=\"0 0 24 24\" fill=\"currentColor\">\n              <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\"></path>\n            </svg>\n            Achat vérifié\n          </span>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <div class=\"review-header\">\n          <div class=\"reviewer-info\">\n            <div class=\"reviewer-avatar\">PB</div>\n            <div class=\"reviewer-details\">\n              <h4>Pierre Bernard</h4>\n              <span class=\"review-date\">Il y a 1 semaine</span>\n            </div>\n          </div>\n          <div class=\"review-rating\">★★★★☆</div>\n        </div>\n        <div class=\"review-content\">\n          <div class=\"review-title\">Très bon produit</div>\n          <div class=\"review-text\">\n            Produit de qualité, conforme à mes attentes. J'aurais aimé plus de choix de couleurs mais sinon c'est parfait.\n          </div>\n          <span class=\"verified-badge\">\n            <svg width=\"14\" height=\"14\" viewbox=\"0 0 24 24\" fill=\"currentColor\">\n              <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\"></path>\n            </svg>\n            Achat vérifié\n          </span>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <div class=\"review-header\">\n          <div class=\"reviewer-info\">\n            <div class=\"reviewer-avatar\">CM</div>\n            <div class=\"reviewer-details\">\n              <h4>Camille Moreau</h4>\n              <span class=\"review-date\">Il y a 2 semaines</span>\n            </div>\n          </div>\n          <div class=\"review-rating\">★★★★★</div>\n        </div>\n        <div class=\"review-content\">\n          <div class=\"review-title\">Je recommande !</div>\n          <div class=\"review-text\">\n            Excellent achat. La qualité est au rendez-vous et le service client très réactif. Merci pour cette belle découverte !\n          </div>\n          <div class=\"review-images\">\n            <img src=\"https://i.imgur.com/placeholder4.jpg\" alt=\"Photo client\" class=\"review-image\" onerror=\"this.style.display='none'\">\n          </div>\n          <span class=\"verified-badge\">\n            <svg width=\"14\" height=\"14\" viewbox=\"0 0 24 24\" fill=\"currentColor\">\n              <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\"></path>\n            </svg>\n            Achat vérifié\n          </span>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <div class=\"review-header\">\n          <div class=\"reviewer-info\">\n            <div class=\"reviewer-avatar\">TR</div>\n            <div class=\"reviewer-details\">\n              <h4>Thomas Rousseau</h4>\n              <span class=\"review-date\">Il y a 3 semaines</span>\n            </div>\n          </div>\n          <div class=\"review-rating\">★★★★★</div>\n        </div>\n        <div class=\"review-content\">\n          <div class=\"review-title\">Au top !</div>\n          <div class=\"review-text\">\n            Rien à redire, produit de très bonne qualité, livraison rapide. C'est ma troisième commande et je ne suis jamais déçu.\n          </div>\n          <span class=\"verified-badge\">\n            <svg width=\"14\" height=\"14\" viewbox=\"0 0 24 24\" fill=\"currentColor\">\n              <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\"></path>\n            </svg>\n            Achat vérifié\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"load-more\">\n      <button class=\"load-more-btn\" onclick=\"alert('Chargement de plus d\\'avis...')\">\n        Voir plus d'avis\n      </button>\n    </div>\n  </div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -1339,7 +1269,7 @@
     "comparaison_3HQ7Jd",
     "slideshow_gTMmtQ",
     "1760491390c9cfb3cd",
-    "judge_3WHKhE",
-    "contact_CMRdkV"
+    "contact_CMRdkV",
+    "custom_html_fUYkHL"
   ]
 }
