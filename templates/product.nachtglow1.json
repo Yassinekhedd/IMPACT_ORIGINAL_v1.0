@@ -467,6 +467,7 @@
         },
         "liquid_az9Pdy": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"benefits-section\">\n  <h2></h2>\n  <ul class=\"benefits-list\">\n    <li>\n      <img src=\"https://st4.depositphotos.com/7662228/30133/v/450/depositphotos_301338040-stock-illustration-green-check-mark-and-red.jpg\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Formt deine Silhouette</span>\n    </li>\n    <li>\n      <img src=\"https://st4.depositphotos.com/7662228/30133/v/450/depositphotos_301338040-stock-illustration-green-check-mark-and-red.jpg\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Unsichtbar unter der Kleidung</span>\n    </li>\n    <li>\n      <img src=\"https://st4.depositphotos.com/7662228/30133/v/450/depositphotos_301338040-stock-illustration-green-check-mark-and-red.jpg\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Angenehm & atmungsaktiv</span>\n    </li>\n    <li>\n      <img src=\"https://st4.depositphotos.com/7662228/30133/v/450/depositphotos_301338040-stock-illustration-green-check-mark-and-red.jpg\" class=\"benefit-icon\" alt=\"Checkmark\">\n      <span class=\"benefit-text\">Hebt Po & Taille hervor</span>\n    </li>\n  </ul>\n</div>\n\n<style>\n  .benefits-section {\n    font-family: Arial, sans-serif;\n    color: #333;\n  }\n  .benefits-section h2 {\n    font-size: 26px;\n    margin-bottom: 10px;\n  }\n  .benefits-list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n  }\n  .benefits-list li {\n    width: 48%;\n    margin-bottom: 14px;\n    display: flex;\n    align-items: center;\n  }\n  .benefit-icon {\n    width: 20px; /* taille augmentée */\n    height: 25px;\n    margin-right: 10px;\n    object-fit: contain;\n  }\n  .benefit-text {\n    font-size: 17px; /* un peu plus grand aussi pour l’équilibre */\n    font-weight: 500;\n  }\n</style>"
           }
@@ -476,6 +477,28 @@
           "disabled": true,
           "settings": {
             "liquid": "<div class=\"item__content-container\">\n<div class=\"item__content\">\n    <div class=\"item\">\n        <svg class=\"frequency_list_checkmark\" xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" fill=\"none\"><path d=\"M12.6562 4.21899L6.09375 10.7812L2.8125 7.50024\" stroke=\"#00B67A\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>\n       <strong> FREE SHIPPING </strong> on first order\n    </div>\n    <div class=\"item\">\n        <svg class=\"frequency_list_checkmark\" xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" fill=\"none\"><path d=\"M12.6562 4.21899L6.09375 10.7812L2.8125 7.50024\" stroke=\"#00B67A\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>\n        <strong>NO CONTRACT </strong> cancel easily\n    </div>\n    <div class=\"item\">\n        <svg class=\"frequency_list_checkmark\" xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" fill=\"none\"><path d=\"M12.6562 4.21899L6.09375 10.7812L2.8125 7.50024\" stroke=\"#00B67A\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>\n       <strong> 15% OFF </strong> future orders\n    </div>\n    <div class=\"item\">\n        <svg class=\"frequency_list_checkmark\" xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" fill=\"none\"><path d=\"M12.6562 4.21899L6.09375 10.7812L2.8125 7.50024\" stroke=\"#00B67A\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>\n       <strong>OUT OF STOCK PROTECTION</strong>\n    </div>\n</div>\n</div>\n\n<style>\n\n    .item__content{\n        display: grid;\n        gap: 10px;\n        grid-template-columns: 1fr 1fr; /* Two equal-width columns */\n    }\n    .item{\n    justify-content: flex-start;\n    align-items: flex-start;\n    width: 100%;\n    margin-bottom: 0;\n    line-height: 1.45;\n    display: flex;\n    gap: 5px;\n    font-size: 10px;\n    }\n</style>"
+          }
+        },
+        "section_store_block_benefits_list_GcFcrJ": {
+          "type": "shopify://apps/section-store/blocks/block-benefits-list/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "settings": {
+            "items_gap": 10,
+            "first_text": "<p><strong>Soforteffekt</strong>: -3 bis 5 cm Taille in 30 Sekunden</p>",
+            "second_text": "<p><strong>16h Komfort</strong>: Verrutscht nie, auch nach langem Tag</p>",
+            "third_text": "<p><strong>Völlig unsichtbar</strong>: Nur 2 mm dünn unter allen Outfits</p>",
+            "fourth_text": "",
+            "icon_size": 20,
+            "icon_color": "#000000",
+            "text_size": 15,
+            "text_color": "#000000",
+            "content_align": "left",
+            "border": "none",
+            "border_thickness": 1,
+            "border_color": "#000000",
+            "radius": 0,
+            "background": "",
+            "padding_vertical": 10,
+            "padding_horizontal": 0
           }
         },
         "description": {
@@ -531,37 +554,6 @@
           "type": "quantity_selector",
           "disabled": true,
           "settings": {}
-        },
-        "section_store_block_upsell_VQhXrN": {
-          "type": "shopify://apps/section-store/blocks/block-upsell/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
-          "settings": {
-            "products": [
-              "nachtglow-satin-kimono"
-            ],
-            "product_list_style": "stack",
-            "variant_selector": "text_boxed",
-            "cart_app": "none",
-            "auto_detect_theme": true,
-            "theme_schema_name": "dawn",
-            "force_open_cart_page_on_click": false,
-            "show_compare_price": true,
-            "font_size": 13,
-            "font_weight": "normal",
-            "item_title_color": "#000000",
-            "item_subtitle_color": "#000000",
-            "image_size": 50,
-            "item_bg_color": "#f6f6f6",
-            "item_border_style": "none",
-            "item_border_width": 1,
-            "item_border_color": "#d7d7d7",
-            "item_border_radius": 10,
-            "atc_button_text": "Add",
-            "atc_button_soldout_text": "Sold out",
-            "atc_button_text_color": "#FFFFFF",
-            "atc_button_bg_color": "#000000",
-            "item_padding_vertical": 12,
-            "item_padding_horizontal": 16
-          }
         },
         "section_store_block_pulse_badge_GCRF3Y": {
           "type": "shopify://apps/section-store/blocks/block-pulse-badge/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
@@ -671,12 +663,12 @@
         "liquid_CyB8KY",
         "liquid_az9Pdy",
         "liquid_ndTCRQ",
+        "section_store_block_benefits_list_GcFcrJ",
         "description",
         "liquid_tdxmPm",
         "variant_picker",
         "section_store_block_countdown_timer_qwAUhJ",
         "quantity_selector",
-        "section_store_block_upsell_VQhXrN",
         "section_store_block_pulse_badge_GCRF3Y",
         "liquid_KDm3GN",
         "buy_buttons",
