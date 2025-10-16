@@ -51,11 +51,81 @@
         "background_gradient": ""
       }
     },
+    "nsw_logo_WqfBHz": {
+      "type": "nsw-logo",
+      "blocks": {
+        "slide_WCtCUB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1200px-VOGUE_revista_-_logo_3b923b11-a209-4aa1-9960-1abf9295591b.avif",
+            "link": ""
+          }
+        },
+        "slide_qBKBE8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Glamour-Logo_svg_bd37ef36-712f-46e7-92ec-905de353f77f.avif",
+            "link": ""
+          }
+        },
+        "slide_84mWcw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/allure-logo.avif",
+            "link": ""
+          }
+        },
+        "slide_r38TTM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ELLE_Magazine_Logo_3f6dfb56-f02d-4405-b151-27efe52c064f.webp",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_WCtCUB",
+        "slide_qBKBE8",
+        "slide_84mWcw",
+        "slide_r38TTM"
+      ],
+      "name": "SS - Scrolling Logo Cloud",
+      "settings": {
+        "ss-title": "",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 30,
+        "header_align": "center",
+        "scrolling_velocity": 64,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 0,
+        "logo_padding_top": 0,
+        "logo_padding_bottom": 0,
+        "slider_gap": 30,
+        "slider_gap_mobile": 30,
+        "slider_direction": "left",
+        "icon_width": 100,
+        "header_color": "#121212",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "slideshow_EWrYV6": {
       "type": "slideshow",
       "blocks": {
         "image_tDQLnb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Design_sans_titre_17.png",
             "content_max_width": 780,
@@ -98,7 +168,7 @@
         "image_xtYjcq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_6.svg",
+            "image": "shopify://shop_images/FUR_EINEN_VERFUHRERISCHN_LOOK_1.svg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -190,19 +260,6 @@
             "overlay_opacity": 0
           }
         },
-        "item_C7tWWn": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-10-15_a_05.34.59_f874a28b.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "item_R6nGg4": {
           "type": "item",
           "settings": {
@@ -228,13 +285,26 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "item_C7tWWn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-10-15_a_05.34.59_f874a28b.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
         "item_VMEiJm",
-        "item_C7tWWn",
         "item_R6nGg4",
-        "item_PmNdNf"
+        "item_PmNdNf",
+        "item_C7tWWn"
       ],
       "name": "Image link blocks",
       "settings": {
@@ -567,7 +637,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -1039,6 +1109,7 @@
   },
   "order": [
     "slideshow_6BEnHE",
+    "nsw_logo_WqfBHz",
     "slideshow_EWrYV6",
     "slideshow_z4f9fd",
     "slideshow_QCVUQh",
