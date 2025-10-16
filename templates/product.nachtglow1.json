@@ -514,16 +514,6 @@
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Rating Widget</title>\n    <style>\n        body.uniqueBody_Ty83Kl {\n            font-family: Arial, sans-serif;\n        }\n\n        .ratingWidget_Wp76Nm {\n            display: flex;\n            align-items: center;\n        }\n\n        .profileImages_Qw59Br {\n            display: flex;\n            align-items: center;\n            margin-right: 20px;\n        }\n\n        .profileImages_Qw59Br img {\n            width: 30px;\n            height: 30px;\n            border-radius: 50%;\n            margin-right: -10px;\n            border: 2px solid white;\n        }\n\n        .nameAndVerified_Xz24Ft {\n            display: flex;\n            align-items: center;\n            margin-left: 15px;\n            font-size: 12px;\n        }\n\n        .purchaseText_Ym34Gh {\n            font-size: 12px;\n            margin-left: 5px;\n        }\n\n        #purchase-count {\n            font-weight: bold;\n            color: #000000; /* Siyah renk */\n            font-size: 14px; /* Biraz daha büyük */\n        }\n\n        @font-face {\n            font-family: \"CustomIcons\";\n            src: url(\"https://fonts.gstatic.com/s/materialsymbolsoutlined/v54/1f6ad2e0e7c7b3724793c4d8709a24a5.woff2\") format(\"woff2\");\n        }\n    </style>\n</head>\n<body class=\"uniqueBody_Ty83Kl\">\n\n    <div class=\"ratingWidget_Wp76Nm\">\n        <div class=\"profileImages_Qw59Br\">\n            <img src=\"https://randomuser.me/api/portraits/men/1.jpg\" alt=\"Profile 1\">\n            <img src=\"https://randomuser.me/api/portraits/women/1.jpg\" alt=\"Profile 2\">\n            <img class=\"uniqueReviewImage_Tz89Lp\" src=\"https://i.hizliresim.com/je7b0fg.jpg\" alt=\"Profile 3\">\n            <div class=\"nameAndVerified_Xz24Ft\">\n                <span>Burkisoy and <span id=\"purchase-count\">470</span> people purchased</span>\n            </div>\n        </div>\n    </div>\n\n    <script>\n        let purchaseCount = 470;\n        const purchaseCountElement = document.getElementById(\"purchase-count\");\n\n        function updatePurchaseCount() {\n            // Her seferde 1, 2 veya bazen 3 artış miktarı\n            let incrementAmount = Math.floor(Math.random() * 3) + 1;\n            purchaseCount += incrementAmount;\n            purchaseCountElement.textContent = purchaseCount;\n\n            // Sonraki artış süresini rastgele 2 ila 8 saniye arasında belirle\n            const nextUpdateDelay = Math.floor(Math.random() * 6000) + 2000;\n\n            setTimeout(updatePurchaseCount, nextUpdateDelay);\n        }\n\n        updatePurchaseCount();\n    </script>\n\n</body>\n</html>"
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "dropdown",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
         "section_store_block_countdown_timer_qwAUhJ": {
           "type": "shopify://apps/section-store/blocks/block-countdown-timer/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
           "settings": {
@@ -548,6 +538,46 @@
             "padding_bottom": 4,
             "padding_left": 0,
             "padding_right": 0
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "dropdown",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "section_store_block_product_addons_ndPPFK": {
+          "type": "shopify://apps/section-store/blocks/block-product-addons/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "settings": {
+            "products": [
+              "nachtglow-satin-kimono"
+            ],
+            "product_list_style": "stack",
+            "variant_selector": "text_boxed",
+            "show_compare_price": true,
+            "use_discount_tag": false,
+            "discount_tag_background": "#C9FFC9",
+            "switch_style": "toggle",
+            "switch_size": 22,
+            "switch_position": "last",
+            "switch_vertical_position": "center",
+            "switch_color": "#000000",
+            "font_size": 12,
+            "font_weight": "normal",
+            "item_title_color": "#000000",
+            "item_subtitle_color": "#000000",
+            "image_size": 50,
+            "item_border_style": "none",
+            "item_border_width": 1,
+            "item_border_color": "#d7d7d7",
+            "item_border_radius": 16,
+            "item_bg_color": "#f6f6f6",
+            "item_padding_vertical": 12,
+            "item_padding_horizontal": 16
           }
         },
         "quantity_selector": {
@@ -666,8 +696,9 @@
         "section_store_block_benefits_list_GcFcrJ",
         "description",
         "liquid_tdxmPm",
-        "variant_picker",
         "section_store_block_countdown_timer_qwAUhJ",
+        "variant_picker",
+        "section_store_block_product_addons_ndPPFK",
         "quantity_selector",
         "section_store_block_pulse_badge_GCRF3Y",
         "liquid_KDm3GN",
