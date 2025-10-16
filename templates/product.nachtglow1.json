@@ -104,7 +104,7 @@
         "logo_padding_bottom": 0,
         "slider_gap": 30,
         "slider_gap_mobile": 30,
-        "slider_direction": "left",
+        "slider_direction": "right",
         "icon_width": 100,
         "header_color": "#121212",
         "border_color": "#ffffff",
