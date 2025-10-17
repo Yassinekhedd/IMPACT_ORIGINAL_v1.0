@@ -625,7 +625,7 @@
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": true,
-            "show_gift_card_recipient": false,
+            "show_gift_card_recipient": true,
             "atc_button_background": "#000000",
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "#ffffff",
@@ -718,7 +718,7 @@
       ],
       "settings": {
         "full_width": true,
-        "show_fixed_add_to_cart": true,
+        "show_fixed_add_to_cart": false,
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "contained",
