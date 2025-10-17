@@ -88,6 +88,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "text_Q9M4na": {
+          "type": "text",
+          "settings": {
+            "title": "Kontaktieren Sie uns",
+            "content": "<p>Unser Kundenservice steht Ihnen zur Verfügung von Montag bis Samstag, 09:00 bis 18:00 Uhr.<br/><br/>Sie können uns jederzeit per E-Mail erreichen unter: Nachtglow@gmail.com<br/><br/>Wir antworten in der Regel innerhalb von 24 Stunden.</p>",
+            "enable_follow_on_shop": false
+          }
+        },
         "newsletter": {
           "type": "newsletter",
           "disabled": true,
@@ -100,24 +108,17 @@
         },
         "links": {
           "type": "links",
+          "disabled": true,
           "settings": {
             "menu": "footer",
             "show_menu_title": true
           }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": true
-          }
         }
       },
       "block_order": [
+        "text_Q9M4na",
         "newsletter",
-        "links",
-        "text"
+        "links"
       ],
       "settings": {
         "show_social_media": true,
