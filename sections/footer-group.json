@@ -85,6 +85,21 @@
         "text_color": ""
       }
     },
+    "slideshow_BfhxDm": {
+      "type": "slideshow",
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -132,6 +147,7 @@
   },
   "order": [
     "text-with-icons",
+    "slideshow_BfhxDm",
     "footer"
   ]
 }
