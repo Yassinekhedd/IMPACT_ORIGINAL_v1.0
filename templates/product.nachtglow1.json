@@ -517,6 +517,7 @@
         },
         "section_store_block_banner_7VFUNq": {
           "type": "shopify://apps/section-store/blocks/block-banner/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+          "disabled": true,
           "settings": {
             "gap": 2,
             "text_align": "center",
@@ -540,6 +541,12 @@
             "shadow": "none",
             "padding_vertical": 12,
             "padding_horizontal": 16
+          }
+        },
+        "liquid_8Tjqja": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% comment %} Stock Alert - Clean Minimal Version {% endcomment %}\n\n<style>\n  .stock-alert-wrapper {\n    margin: 12px 0;\n  }\n\n  .stock-alert-box {\n    background: #fff;\n    border: 1px solid #f3f4f6;\n    border-left: 3px solid #fda4af;\n    border-radius: 6px;\n    padding: 8px 12px;\n  }\n\n  .stock-alert-content {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-wrap: wrap;\n  }\n\n  .stock-alert-title {\n    font-size: 11px;\n    font-weight: 600;\n    color: #fb7185;\n    margin: 0;\n  }\n\n  .stock-alert-message {\n    font-size: 11px;\n    color: #9ca3af;\n    margin: 0;\n  }\n</style>\n\n<div class=\"stock-alert-wrapper\">\n  <div class=\"stock-alert-box\">\n    <div class=\"stock-alert-content\">\n      <span class=\"stock-alert-title\">Nur noch 6 Stück auf Lager</span>\n      <span class=\"stock-alert-message\">– Größen S und M verfügbar</span>\n    </div>\n  </div>\n</div>"
           }
         },
         "section_store_block_countdown_timer_qwAUhJ": {
@@ -751,6 +758,7 @@
         "description",
         "liquid_tdxmPm",
         "section_store_block_banner_7VFUNq",
+        "liquid_8Tjqja",
         "section_store_block_countdown_timer_qwAUhJ",
         "separator_NwK33w",
         "liquid_F9gwGU",
