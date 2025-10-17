@@ -396,12 +396,6 @@
             "show_taxes_notice": false
           }
         },
-        "liquid_zyeTki": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "{% if product.compare_at_price > product.price %}\n  {% assign savings = product.compare_at_price | minus: product.price %}\n  {% assign percent = savings | times: 100 | divided_by: product.compare_at_price %}\n  \n  <div class=\"custom-price-container\">\n    <div class=\"custom-price-main\">\n      <span class=\"custom-price-sale\">\n        {{ product.price | money }}\n      </span>\n      <span class=\"custom-price-compare\">\n        {{ product.compare_at_price | money }}\n      </span>\n    </div>\n    <div class=\"custom-save-badge\">\n      Spare {{ savings | money }}\n    </div>\n  </div>\n{% else %}\n  <span class=\"custom-price-sale\">\n    {{ product.price | money }}\n  </span>\n{% endif %}"
-          }
-        },
         "section_store_block_social_proof_Ge7bGJ": {
           "type": "shopify://apps/section-store/blocks/block-social-proof/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
           "settings": {
@@ -697,7 +691,6 @@
         "liquid_HmiifD",
         "badges",
         "price",
-        "liquid_zyeTki",
         "section_store_block_social_proof_Ge7bGJ",
         "rating",
         "separator",
