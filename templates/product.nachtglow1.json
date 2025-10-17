@@ -1201,7 +1201,7 @@
         "button_border_color": "#16142b",
         "button_border_hover_color": "#16142b",
         "table_border_color": "#000000",
-        "table_active_border_color": "#dad0ff",
+        "table_active_border_color": "#000000",
         "table_heading_color": "#1a192e",
         "table_heading_active_color": "#ffffff",
         "table_heading_bg_active_color": "#f2f2f2",
