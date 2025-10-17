@@ -574,7 +574,7 @@
             "switch_vertical_position": "center",
             "switch_color": "#000000",
             "font_size": 16,
-            "font_weight": "normal",
+            "font_weight": "bold",
             "item_title_color": "#000000",
             "item_subtitle_color": "#000000",
             "image_size": 50,
