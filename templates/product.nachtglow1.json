@@ -416,8 +416,8 @@
             "border_color": "#d7d7d7",
             "radius": 16,
             "bg_color": "#f6f6f6",
-            "padding_vertical": 0,
-            "padding_horizontal": 0,
+            "padding_vertical": 4,
+            "padding_horizontal": 10,
             "clip_as_header_of_wrapper": false
           }
         },
