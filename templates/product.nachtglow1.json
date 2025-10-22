@@ -632,6 +632,7 @@
         },
         "button_QqRRHF": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link": "",
             "text": "Jetzt shoppen",
@@ -710,7 +711,6 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
             "show_payment_button": true,
             "show_gift_card_recipient": true,
